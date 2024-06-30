@@ -4,8 +4,12 @@
     --grey: #606060;
 }
 
-body{
+html, body{
     background-color: #f4f4f4;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -86,8 +90,10 @@ button strong{
 }
 
 .land{
-    margin: 5%;
     display: flex;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    border: 20%;
 }
 
 .textGreen{
@@ -98,7 +104,13 @@ button strong{
     display: block;
     width: 46%;
     margin-left: 10%;
+    margin-top: 5%;
 }
+
+.community h2{
+    margin: 0;
+}
+
 #communityText{
     display: block;
     font-size: 24px;
@@ -111,7 +123,13 @@ button strong{
 }
 
 .start{
-    width: 34%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.start h1{
+    margin-top: 0;
 }
 
 .line{
@@ -121,13 +139,17 @@ button strong{
     height: 40px;
     margin-left: 40px;
     margin-top: 20px;
-    z-index: -1;
+    z-index: 0;
 }
 
 .signUp{
     width: 51%;
     display: flex;
     flex-direction: column;
+}
+
+.signUp input{
+  z-index: 1;
 }
 
 
@@ -152,5 +174,175 @@ button strong{
     margin-top: 5%;
   }
 
+  .eclipse{
+    background-color: #f4f4f4;
+    height: 10%;
+    width: 100%;
+    border-bottom-left-radius: 10000%;
+    border-bottom-right-radius: 10000%;
+    z-index: 500;
+    position: absolute;
+  }
+  .eclipsebg{
+    background-color: #d9d9d9;
+    height: 10%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+  }
 
+  .eclipseBT{
+    background-color: var(--black);
+    height: 10%;
+    width: 100%;
+    border-top-left-radius: 10000%;
+    border-top-right-radius: 10000%;
+    z-index: 500;
+    position: absolute;
+  }
+  .eclipseBTBG{
+    background-color: #d9d9d9;
+    height: 10%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+  }
 
+  .eclipseBB{
+    background-color: var(--black);
+    height: 10%;
+    width: 100%;
+    border-bottom-left-radius: 10000%;
+    border-bottom-right-radius: 10000%;
+    z-index: 500;
+    position: absolute;
+  }
+  .eclipseBBBG{
+    background-color: #f4f4f4;
+    height: 10%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .solve{
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 2%;
+  }
+
+  .solveText{
+    width: 37%;
+    margin-left: 5%;
+  }
+
+  .solve img{
+    height: 378px;
+    margin-left: 10%;
+    border-radius: 10px;
+  }
+
+  .pain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black);
+    padding-top: 2%;
+  }
+
+  .pain h2{
+    margin-bottom: 0;
+    color: #f4f4f4;
+  }
+
+  .pain h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+  }
+  
+  .quotes{
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+
+  .quote{
+    width: 25%;
+    background-color: #d9d9d9;
+    padding: 1%;
+    border-radius: 10px;
+  }
+
+  .quote p{
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  .quote .quoteNameCard{
+    display: flex;
+    gap: 5%;
+  }
+
+  .waitlist{
+    background-color: var(--black);
+    display: flex;
+    gap: 50%;
+  }
+
+  .waitlistText{
+    margin-left: 5%;
+  }
+
+  .waitlist h2{
+    color:#f4f4f4;
+    font-size: 32px;
+    margin: 0;
+    padding-top:2% ;
+  }
+
+  .waitlist h4{
+    color: #f4f4f4;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+  }
+
+  .waitlist button{
+    margin-top: 2%;
+  }
+
+  .waitlist button p{
+    font-size: 20px;
+    color: #f4f4f4;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  footer{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    
+  }
+
+  footer h1{
+    color: var(--green)
+  }
+
+  footer p{
+    width: 15%;
+    font-size: 20px;
+  }
