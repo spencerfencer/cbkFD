@@ -74,6 +74,11 @@ button{
     box-sizing:border-box;
     padding:0 18px; 
     margin-left: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+  background-color: #408543;
 }
 
 button strong{
@@ -87,7 +92,9 @@ button strong{
   ::placeholder {
     color: #606060;
     font-size: 20px;
-}
+  }
+
+
 
 .land{
     display: flex;
@@ -353,3 +360,6 @@ button strong{
     width: 15%;
     font-size: 20px;
   }
+
+
+ 

@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const hero = document.querySelector(".hero");
     const scriptURL = "https://script.google.com/macros/s/AKfycbxcqal6ygl-nHY--pJvwG7P-J4q4100ws7N8NEB8iB5wN52y9815YHo1xOGomRAv90m/exec";
 
+
     form.addEventListener("submit", function (event) {
         event.preventDefault();
         submitButton.disabled = true;
@@ -31,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
             });
     });
 });
+
+   
 
 
 

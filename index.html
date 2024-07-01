@@ -8,23 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="script" href="script.js">
 </head>
+
 <body>
     <nav>
         <h1><a href="index.html" style="text-decoration: none; color: #262626;">Project FD</a></h1>
     </nav>
-    <section class = land>
-        <div class="start">
+    <section class = "land">
+        <div class="start hero">
         <h1 id="feed"> Feed your community with <span class="textGreen">Project FD</span></h1>
         <div class="signUp">
             <form id="joinForm">
-                <input type="text" id="name" placeholder="Name">
-                <input type="text" id="email" placeholder="Email">
-                <button type="button"><strong>Join Now</strong></button>
+                <input type="text" id="name" placeholder="Name" name="name">
+                <input type="email" id="email" placeholder="Email" name="email">
+                <button type="submit"><strong>Join Now</strong></button>
             </form>
             <div class="line"></div>
             <div class="spinner" id="spinner"></div>
+            <div class="checkmark"></div>
         </div>
     </div>
         <div class="community">
@@ -60,9 +61,23 @@
 
     <h2 style="display: flex; justify-content: center; margin-top: 7%; margin-bottom: 0;">User Quotes</h2>
 
-
     <section class="quotes">
-        <div class="quote quote1">
+        <div class="quote">
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed 
+                   urna sit sagittis interdum a. Blandit mattis mattis lobortis orci. Facilisis 
+                   dui sagittis tempor egestas pellentesque eu maecenas. Risus lectus nisl.
+                </p>
+                <div class="quoteNameCard">
+                    <img src="images/janedoe.png" alt="">
+                    <div>
+                    <strong>Jacqueline Wright</strong>
+                    <p>Customer</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="quote">
             <p>
             Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed 
                urna sit sagittis interdum a. Blandit mattis mattis lobortis orci. Facilisis 
@@ -76,21 +91,7 @@
                  </div>
             </div>
         </div>
-        <div class="quote quote2">
-            <p>
-            Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed 
-               urna sit sagittis interdum a. Blandit mattis mattis lobortis orci. Facilisis 
-               dui sagittis tempor egestas pellentesque eu maecenas. Risus lectus nisl.
-            </p>
-            <div class="quoteNameCard">
-                <img src="images/janedoe.png" alt="">
-                <div>
-                <strong>Jacqueline Wright</strong>
-                <p>Customer</p>
-                 </div>
-            </div>
-        </div>
-        <div class="quote quote3">
+        <div class="quote">
             <p>
             Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed 
                urna sit sagittis interdum a. Blandit mattis mattis lobortis orci. Facilisis 
@@ -105,6 +106,7 @@
             </div>
         </div>
     </section>
+
     <section class="waitlist">
         <div class="waitlistText">
             <h2>Join our Wait-list Today!</h2>
@@ -120,5 +122,6 @@
             Amet minim mollit non deserun ullamco est sit aliqua dolor do ametsintelit officia consequat
         </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
