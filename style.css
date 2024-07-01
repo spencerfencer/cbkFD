@@ -285,6 +285,13 @@ button strong{
     margin-top: 0;
   }
 
+  .quote strong{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
   .quote .quoteNameCard{
     display: flex;
     gap: 5%;
