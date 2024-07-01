@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         submitButton.disabled = true;
         hero.classList.add("loading");
-        spinner.style.display = "block";
+        spinner.style.display = "none";
+        submitButton.style.display = "none"
 
         let requestBody = new FormData(form);
         fetch(scriptURL, { method: "POST", body: requestBody })
@@ -23,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 checkmark.style.display = "block";
                 spinner.style.display = "none";
+                submitButton.style.display = "none"
             })
             .catch(error => {
                 console.error("Error:", error.message);

@@ -181,6 +181,19 @@ button strong{
     margin-top: 5%;
   }
 
+  .checkmark{
+    display: none;
+    margin-left: 10px;
+  }
+
+  .checkmark strong{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: var(--green);
+  }
+
   .eclipse{
     background-color: #f4f4f4;
     height: 10%;
