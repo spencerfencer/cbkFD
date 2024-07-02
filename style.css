@@ -317,6 +317,11 @@ button strong{
     gap: 5%;
   }
 
+  .quoteNameCard img{
+    width: 15%;
+    height: 15%;
+  }
+
   .waitlist{
     background-color: var(--black);
     display: flex;
